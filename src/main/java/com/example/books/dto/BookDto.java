@@ -27,6 +27,7 @@ public class BookDto {
     @NotBlank(message = "chiqarilgan vaqtda xato")
     private String published_date;
     private LocalDateTime create_at;
+    // some is wrong
     private LocalDateTime update_at;
     private LocalDateTime delete_at;
 
